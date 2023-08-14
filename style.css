@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.main{
+    width: 700px;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    right: 30%;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 0 3px 0 red;
+}
+#input{
+    width: 500px;
+    margin-left: 35px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 3px ;
+    
+}
+.btn{
+    border: solid 2px rgb(81, 8, 104);
+    padding: 5px 10px 5px 10px;
+    background-color: blueviolet;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 3px 0 yellow;
+    
+}
+#listDiv{
+ list-style: none; 
+ margin-top: 30px;
+ display: flex; 
+ 
+ flex-direction: column;
+ 
+    
+}
+.delete{
+    display: flex;
+    border: solid 1px green;
+   background-color: rgb(219, 48, 88);
+   color: chartreuse;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: rgb(41, 42, 42);
+    color: white;
+    font-size: medium;
+    font-weight:bold ;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+.workDone{
+    text-align: right;
+   
+    border: solid 1px green;
+   background-color: rgb(219, 48, 88);
+   color: chartreuse;  
+}
+.edit{
+    text-align: right;
+   
+    border: solid 1px green;
+   background-color: rgb(219, 48, 88);
+   color: chartreuse;  
+}
